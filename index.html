@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Actividad Complementaria</title>
+  <style>
+    /* Fondo: usa textura.jpg en la misma carpeta */
+    body{
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 24px;
+      background-image: url('textura.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: #111;
+    }
+
+    /* Caja para mejorar lectura sobre fondo */
+    .container{
+      background: rgba(255,255,255,0.92);
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    h2{
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    /* Imagen derecha (la de html.gif) */
+    .img-right{
+      float: right;
+      margin: 0 0 10px 12px;
+      width: 146px; /* según la imagen original */
+      height: auto;
+    }
+
+    /* Limpiar flotados después del bloque */
+    .clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+
+    ul { margin-left: 1.2rem; }
+    li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Actividades complementarias</h2>
+
+    <p class="clearfix">
+      <!-- imagen alineada a la derecha -->
+      <img src="html.gif" alt="Icono HTML" class="img-right" width="146" height="153">
+      Para abreviar una larga historia, podemos decir que un científico llamado Tim Berners-Lee inventó HTML allá por 1990. El objetivo era facilitar a científicos de diferentes universidades el acceso a los documentos de investigación de cada uno de ellos.
+    </p>
+
+    <p>
+      El proyecto obtuvo un éxito mucho mayor del que Tim Berners-Lee nunca hubiese llegado a imaginar. Al inventar HTML, este científico sentó las bases de la web tal y como la conocemos hoy día.
+    </p>
+
+    <p>
+      HTML es un lenguaje que hace posible presentar información (por ejemplo, investigaciones científicas) en Internet.
+    </p>
+
+    <p>
+      Lo que ves al visualizar una página en Internet es la interpretación que hace el navegador del código HTML.
+    </p>
+
+    <p>
+      ¿Qué representan las siglas H-T-M-L? 
+    </p>
+
+    <ul>
+      <li>Hiper</li>
+      <li>Texto</li>
+      <li>Marcado</li>
+      <li>Lenguaje</li>
+    </ul>
+
+    <p>
+      La estructura básica de HTML está constituida por:
+    </p>
+
+    <ul>
+      <li>Cabecera</li>
+      <li>Cuerpo</li>
+    </ul>
+
+  </div>
+</body>
+</html>
